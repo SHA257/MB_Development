@@ -10,6 +10,6 @@ const div = document.getElementById('my-money-button');
     type: "tip",
     onPayment: handleSuccessfulPayment,
     onError: handleFailedPayment,
-	devMode: "false"
+    devMode: "false"
   };
   moneyButton.render(div, MB);
